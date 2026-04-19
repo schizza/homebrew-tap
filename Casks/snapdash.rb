@@ -15,6 +15,10 @@ cask "snapdash" do
 
   app "Snapdash.app"
 
+  postflight do
+    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/Snapdash.app"]
+  end
+
   zap trash: [
     "~/Library/Application Support/dev.snapdash.Snapdash",
     "~/Library/Preferences/dev.snapdash.Snapdash.plist",
