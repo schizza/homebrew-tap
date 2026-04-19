@@ -1,5 +1,5 @@
 cask "snapdash" do
-  version "0.0.1"
+  version "0.0.2"
 
   on_arm do
     sha256 "08ba098d2f8699be06afd944d4ab6a556c6821f5d5ff23a678aa7988e0d45364"
