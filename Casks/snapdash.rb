@@ -1,8 +1,8 @@
 cask "snapdash" do
-  version "0.0.8"
+  version "0.0.12"
 
   on_arm do
-    sha256 "bd6b4e9d16a3760965c777c6724aff3431e546e0d5501b76f7ab7826b5d36e2f"
+    sha256 "64a42d7bf202711ec2f96d6afff9bc994658c78d74799e0f529b0c9e539d53a2"
     url "https://github.com/schizza/snapdash/releases/download/v#{version}/snapdash-v#{version}-macos-aarch64.tar.gz",
       verified: "github.com/schizza/snapdash/"
   end
